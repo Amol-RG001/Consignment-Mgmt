@@ -1,0 +1,18 @@
+<table class="table">
+<thead class="thead-custom">
+    <tr>
+        <th>Consignment Id</th>
+        <th>Consignment Category</th>
+        <th>Delivary Partner</th>
+        <th>Consignment Status</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let d of consign">
+        <td>{{d.id}}</td>
+        <td>{{d.category}}</td>
+        <td>{{d.deliveryPartner}}</td>
+        <td>{{d.status}}</td>
+    </tr>
+</tbody>
+</table>

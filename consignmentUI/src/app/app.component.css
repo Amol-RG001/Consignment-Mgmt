@@ -1,0 +1,19 @@
+.logo-header{
+    background-color: rgb(5,68,104);
+    height: 70px;
+}
+.header-content{
+    padding-top: 5px;
+    color: white;
+    font-size: 40px;
+    margin: auto;
+    left: 0px;
+    display: table;
+    font-family:'Segoe UI';
+}
+
+.outlet{
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-right: 50px;
+}
